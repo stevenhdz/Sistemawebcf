@@ -1,0 +1,47 @@
+﻿@model IEnumerable<Sistemawebcf.Models.Categoria>
+
+@{
+    ViewData["Title"] = "Listado categorías";
+}
+
+<h1>Categorías</h1>
+
+<p>
+    <a asp-action="Create">Crear nuevo</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.nombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.descripcion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.estado)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.descripcion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.estado)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.idcategoria">Editar</a> |
+                <a asp-action="Details" asp-route-id="@item.idcategoria">Detalles</a> |
+                <a asp-action="Delete" asp-route-id="@item.idcategoria">Eliminar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

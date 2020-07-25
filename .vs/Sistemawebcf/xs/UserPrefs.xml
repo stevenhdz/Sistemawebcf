@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{30522E36-5740-455B-9BB3-124114799039}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Sistemawebcf/Models/Producto.cs">
+    <Files>
+      <File FileName="Sistemawebcf/Models/Categoria.cs" Line="1" Column="1" />
+      <File FileName="Sistemawebcf/Models/Producto.cs" Line="28" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Sistemawebcf" expanded="True">
+            <Node name="Sistemawebcf" expanded="True">
+              <Node name="Models" expanded="True">
+                <Node name="Producto.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Sistemawebcf PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>
